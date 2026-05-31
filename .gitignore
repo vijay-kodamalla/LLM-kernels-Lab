@@ -1,4 +1,13 @@
-rmsnorm
-gemm_bench
+# Ignore the
+
+ compiled executables specifically
+rmsnorm_v1
+rmsnorm_v2
+gemm_s1
+gemm_s2
+
+# Ignore common build artifacts
 *.o
 *.exe
+*.out
+*.ncu-report
