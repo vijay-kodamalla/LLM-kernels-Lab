@@ -8,7 +8,7 @@ SOTA techniques on NVIDIA Turing (T4), Ampere (A100), and Hopper (H100) architec
 
 | Operator | Precision | Device | Baseline | Optimized | Speedup | Metric |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **RMSNorm** | FP32 | Tesla T4 | 71.4 GB/s | 254.1 GB/s | 3.5x | Memory BW |
+| **RMSNorm** | FP32 | Tesla T4 | 201.5 GB/s | 254.1 GB/s | 1.26x | Memory BW |
 | **GEMM** | FP16/32| A100 | [TBD] | [TBD] | [TBD] | TFLOPS |
 | **Softmax** | FP32 | T4 | [TBD] | [TBD] | [TBD] | Memory BW |
 
