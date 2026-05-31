@@ -1,0 +1,4 @@
+rmsnorm
+gemm_bench
+*.o
+*.exe
